@@ -28,13 +28,13 @@ class Welcome extends CI_Controller {
 		$array = [
 			'Ingeniero de software con un año de experiencia en la parte de backend y un poco de frontend utilizando la tecnología PHP y sus frameworks Codeigniter y Yii2. Participando en proyectos de gestión de información en bases de datos. Estoy abierto a aprender más y usar otras tecnologías sobre todo en JavaScript, Python y Ruby.',
 
-		]
+		];
 	}
 
 	public function english()
 	{
 		$array = [
 			'Software engineer with a year of experience in the backend part and a bit of frontend using PHP technology and its Codeigniter and Yii2 frameworks. Participating in information management projects in databases. I am willing to learn more and use other technologies especially in JavaScript, Python and Ruby.'
-		]
+		];
 	}
 }
