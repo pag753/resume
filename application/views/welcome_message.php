@@ -39,7 +39,7 @@
 							<ul class="resume-social list-unstyled">
 								<li class="mb-3"><a href="https://www.linkedin.com/in/pag753/" target="_blank"><span class="fa-container text-center mr-2"><i class="fab fa-linkedin-in fa-fw"></i></span>linkedin.com/in/pag753</a></li>
 								<li class="mb-3"><a href="https://github.com/pag753/" target="_blank"><span class="fa-container text-center mr-2"><i class="fab fa-github-alt fa-fw"></i></span>github.com/pag753</a></li>
-								<li class="mb-3"><a href="https://codepen.io/pag753/" target="_blank"><span class="fa-container text-center mr-2"><i class="fab fa-codepen fa-fw"></i></span>codepen.io/pag753/</a></li>
+								<li class="mb-3"><a href="https://codepen.io/pag753/" target="_blank"><span class="fa-container text-center mr-2"><i class="fab fa-codepen fa-fw"></i></span>codepen.io/pag753</a></li>
 								<li><a href="https://pag753.000webhostapp.com/" target="_blank"><span class="fa-container text-center mr-2"><i class="fas fa-globe"></i></span>pag753.000webhostapp.com</a></li>
 							</ul>
 						</div><!--//secondary-info-->
@@ -47,6 +47,8 @@
 							<ul class="resume-social list-unstyled">
 								<li class="mb-3"><a href="whatsapp://send?abid=+5212381336066&text=Hello%2C%20Pablo!" target="_blank"><span class="fa-container text-center mr-1"><i class="fab fa-whatsapp"></i></span></a></li>
 								<li class="mb-3"><a href="https://www.facebook.com/messages/t/PAdJGA" target="_blank"><span class="fa-container text-center mr-1"><i class="fab fa-facebook-messenger"></i></span></a></li>
+								<li class="mb-3"><a href="https://www.instagram.com/pag753" target="_blank"><span class="fa-container text-center mr-1"><i class="fab fa-instagram"></i></span></a></li>
+								<li class="mb-3"><a href="https://twitter.com/pa_753" target="_blank"><span class="fa-container text-center mr-1"><i class="fab fa-twitter"></i></span></a></li>
 							</ul>
 						</div><!--//secondary-info-->
 					</div><!--//media-body-->
@@ -56,7 +58,7 @@
 				<section class="resume-section summary-section mb-5">
 					<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Career Summary</h2>
 					<div class="resume-section-content">
-						<p class="mb-0">I have the ability of programming diverse applications and programs to solve different problems in real world. I hope having a job in which I can developed myself so that I give the best of me in informatics programs an especially to help the most needed customers. I graduate at Tecnológico of Tehuacán in the career of computer systems.</p>
+						<p class="mb-0">Software engineer with a year of experience in the backend part and a bit of frontend using PHP technology and its Codeigniter and Yii2 frameworks. Participating in information management projects in databases. I am willing to learn more and use other technologies especially in JavaScript, Python and Ruby.</p>
 					</div>
 				</section><!--//summary-section-->
 				<div class="row">
@@ -69,7 +71,7 @@
 
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
-												<h3 class="resume-position-title font-weight-bold mb-1">Lead Developer</h3>
+												<h3 class="resume-position-title font-weight-bold mb-1">Full Stack Developer</h3>
 												<div class="resume-company-name ml-auto">TecNM / Instituto Tecnológico de Tehuacán</div>
 											</div><!--//row-->
 											<div class="resume-position-time">September 2018 - December 2018</div>
@@ -102,7 +104,7 @@
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
 												<h3 class="resume-position-title font-weight-bold mb-1">Web Developer</h3>
-												<div class="resume-company-name ml-auto">Lavados especiales</div>
+												<div class="resume-company-name ml-auto">Lavados Especiales</div>
 											</div><!--//row-->
 											<div class="resume-position-time">February 2018 - July 2018</div>
 										</div><!--//resume-timeline-item-header-->
@@ -118,41 +120,79 @@
 												<li class="list-inline-item"><span class="badge badge-primary badge-pill">jQuery</span></li>
 												<li class="list-inline-item"><span class="badge badge-primary badge-pill">HTML5</span></li>
 												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Bootstrap 4</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Data Tables</span></li>
 											</ul>
 										</div><!--//resume-timeline-item-desc-->
 
 									</article><!--//resume-timeline-item-->
 
-	
+
 								</div><!--//resume-timeline-->
-	
+
 							</div>
 						</section><!--//experience-section-->
-	
+
 					</div>
 					<div class="col-lg-3">
 						<section class="resume-section skills-section mb-5">
 							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills &amp; Tools</h2>
 							<div class="resume-section-content">
+
+								<div class="resume-skill-item">
+									<h4 class="resume-skills-cat font-weight-bold">Languajes</h4>
+									<ul class="list-unstyled mb-4">
+										<li class="mb-2">
+											<div class="resume-skill-name">PHP</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">JavaScript</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Python</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Java</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">C / C++ / C#</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+
 								<div class="resume-skill-item">
 									<h4 class="resume-skills-cat font-weight-bold">Frontend</h4>
 									<ul class="list-unstyled mb-4">
 										<li class="mb-2">
 											<div class="resume-skill-name">jQuery</div>
 											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 98%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 										</li>
 										<li class="mb-2">
-											<div class="resume-skill-name">JavaScript</div>
+											<div class="resume-skill-name">Bootstrap</div>
 											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 										</li>
 										<li class="mb-2">
 											<div class="resume-skill-name">HTML/CSS</div>
 											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 										</li>
 									</ul>
@@ -162,24 +202,23 @@
 									<h4 class="resume-skills-cat font-weight-bold">Backend</h4>
 									<ul class="list-unstyled">
 										<li class="mb-2">
-											<div class="resume-skill-name">PHP 7</div>
+											<div class="resume-skill-name">PHP Frameworks</div>
 											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 										</li>
 										<li class="mb-2">
 											<div class="resume-skill-name">Node.js</div>
 											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 82%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 										</li>
 										<li class="mb-2">
 											<div class="resume-skill-name">Python/Django</div>
 											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 82%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 										</li>
-										
 									</ul>
 								</div><!--//resume-skill-item-->
 
@@ -187,6 +226,7 @@
 									<h4 class="resume-skills-cat font-weight-bold">Others</h4>
 									<ul class="list-inline">
 										<li class="list-inline-item"><span class="badge badge-light">Git</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">FontAwesome</span></li>
 									</ul>
 								</div><!--//resume-skill-item-->
 							</div><!--resume-section-content-->
@@ -197,7 +237,7 @@
 								<ul class="list-unstyled">
 									<li class="mb-2">
 										<div class="resume-degree font-weight-bold">Computer Systems Enginer</div>
-										<div class="resume-degree-org">TecNM / Instituto Tecnológico de Tehuacán</div>
+										<div class="resume-degree-org"><a href="http://www.ittehuacan.edu.mx" target="_blank">TecNM / Instituto Tecnológico de Tehuacán</a></div>
 										<div class="resume-degree-time">2014 - 2018</div>
 									</li>
 								</ul>
@@ -210,7 +250,7 @@
 									<li class="mb-2 pl-4 position-relative">
 										<i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
 										<div class="resume-award-name">State programming competition</div>
-										<div class="resume-award-desc">In the IT of Puebla on April 22, 2016. Winner of the third place in the intermediate category.</div>
+										<div class="resume-award-desc">In the <a href="http://www.itpuebla.edu.mx" target="_blank">IT of Puebla</a> on April 22, 2016. Winner of the third place in the intermediate category.</div>
 									</li>
 								</ul>
 							</div>
@@ -220,7 +260,7 @@
 							<div class="resume-section-content">
 								<ul class="list-unstyled resume-lang-list">
 									<li class="mb-2"><span class="resume-lang-name font-weight-bold">Spanish</span> <small class="text-muted font-weight-normal">(Native)</small></li>
-									<li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">English</span> <small class="text-muted font-weight-normal">(Basic)</small></li>
+									<li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">English</span> <small class="text-muted font-weight-normal">(Intermediate)</small></li>
 								</ul>
 							</div>
 						</section><!--//language-section-->
@@ -234,6 +274,18 @@
 								</ul>
 							</div>
 						</section><!--//interests-section-->
+						<section class="resume-section education-section mb-5">
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Volunteering</h2>
+							<div class="resume-section-content">
+								<ul class="list-unstyled">
+									<li class="mb-2">
+										<div class="resume-degree font-weight-bold">Full Time Misioner</div>
+										<div class="resume-degree-org"><a href="https://www.campomision.org.mx/" target="_blank">Misioneros Servidores de la Palabra</a></div>
+										<div class="resume-degree-time">April 2011 - September 2013</div>
+									</li>
+								</ul>
+							</div>
+						</section><!--//education-section-->
 
 					</div>
 				</div><!--//row-->
@@ -246,7 +298,8 @@
 
 	<footer class="footer text-center pt-2 pb-5">
 		<!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-		<small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+		<a href="/welcome/spanish">Spanish</a>
+		<a href="/welcome/english">English</a>
 	</footer>
 </body>
 </html>
