@@ -77,14 +77,13 @@
 											<div class="resume-position-time">September 2018 - December 2018</div>
 										</div><!--//resume-timeline-item-header-->
 										<div class="resume-timeline-item-desc">
-											<p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.</p>
+											<p>Responsible for full stack development and database of the module 'didactic instrumentation' for use by all teachers of the National Technological Institute of Mexico.</p>
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
-											<p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+											<p>Before the teachers made the didactic instrumentation in programs such as "word", following specific standards and formats, but now:</p>
 											<ul>
-												<li>Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.</li>
-												<li>At vero eos et accusamus et iusto odio dignissimos.</li>
-												<li>Blanditiis praesentium voluptatum deleniti atque corrupti.</li>
-												<li>Maecenas tempus tellus eget.</li>
+												<li>Filling data is fast, intuitive and effective.</li>
+												<li>At the end of the capture the teachers obtain the didactic instrumentation in a PDF complying with the norms and formats required and the confidence that everything they wrote and saved is in a database.</li>
+												<li>The document once generated can be consulted or edited on the platform when and where they want from a web browser and with an internet connection.</li>
 											</ul>
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 											<ul class="list-inline">
@@ -109,9 +108,9 @@
 											<div class="resume-position-time">February 2018 - July 2018</div>
 										</div><!--//resume-timeline-item-header-->
 										<div class="resume-timeline-item-desc">
-											<p>Platform for the management of laundry process in the company 'Lavados Especiales' Puebla city</p>
+											<p>Platform for the management of laundry process in the company 'Lavados Especiales' from Puebla city</p>
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Description</h4>
-											<p>Platform for automate in efficiently way the control of laundry processes and the company administration with the implementation of the project to obtain a better a fastest and better internal control.</p>
+											<p>Platform for automate in efficiently way the control of laundry processes and the company administration with the implementation of the project to obtain a better fastest and internal control.</p>
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 											<ul class="list-inline">
 												<li class="list-inline-item"><span class="badge badge-primary badge-pill">PHP 7</span></li>
@@ -268,9 +267,9 @@
 							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
 							<div class="resume-section-content">
 								<ul class="list-unstyled">
-									<li class="mb-1">Reading</li>
-									<li class="mb-1">Swimming</li>
-									<li class="mb-1">Watching movies</li>
+									<li class="mb-1">Read</li>
+									<li class="mb-1">Swimm</li>
+									<li class="mb-1">Watch movies</li>
 								</ul>
 							</div>
 						</section><!--//interests-section-->
