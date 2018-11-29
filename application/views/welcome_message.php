@@ -267,14 +267,14 @@
 							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
 							<div class="resume-section-content">
 								<ul class="list-unstyled">
-									<li class="mb-1">Read</li>
-									<li class="mb-1">Swimm</li>
-									<li class="mb-1">Watch movies</li>
+									<li class="mb-1">Reading</li>
+									<li class="mb-1">Swimming</li>
+									<li class="mb-1">Watching movies</li>
 								</ul>
 							</div>
 						</section><!--//interests-section-->
 						<section class="resume-section education-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Volunteering</h2>
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Volunteer</h2>
 							<div class="resume-section-content">
 								<ul class="list-unstyled">
 									<li class="mb-2">
