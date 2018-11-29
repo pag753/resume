@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Pillar - Bootstrap 4 Resume/CV Template for Developers</title>
+	<title>Resume Pablo de Jesús</title>
 
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -108,7 +108,7 @@
 											<div class="resume-position-time">February 2018 - July 2018</div>
 										</div><!--//resume-timeline-item-header-->
 										<div class="resume-timeline-item-desc">
-											<p>Platform for the management of laundry process in the company 'Lavados Especiales' from Puebla city</p>
+											<p>Responsible for full stack development and database of platform for the management of laundry process in the company 'Lavados Especiales' from Puebla city.</p>
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Description</h4>
 											<p>Platform for automate in efficiently way the control of laundry processes and the company administration with the implementation of the project to obtain a better fastest and internal control.</p>
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
