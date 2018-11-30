@@ -21,6 +21,10 @@
 	<link id="theme-style" rel="stylesheet" href="/css/pillar-1.css">
 </head>
 <body>
+	<div class="text-center pt-2 pb-5">
+    <a href="/index.php">Spanish</a>
+		<a href="/index.php/welcome/english">English</a>
+	</div>
 	<article class="resume-wrapper text-center position-relative">
 		<div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
 			<header class="resume-header pt-4 pt-md-0">
