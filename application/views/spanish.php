@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Resume Pablo de Jesús</title>
+	<title>Curriculum Vitae Pablo de Jesús</title>
 
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -29,7 +29,7 @@
 					<div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
 						<div class="primary-info">
 							<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Pablo de Jesús</h1>
-							<div class="title mb-3">Full Stack Developer</div>
+							<div class="title mb-3">Desarrollador Full Stack</div>
 							<ul class="list-unstyled">
 								<li class="mb-2"><a href="mailto:pag753@gmail.com"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>pag753@gmail.com</a></li>
 								<li><a href="tel:+52 1 238 133 60 66"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>+52 1 238 133 60 66</a></li>
@@ -56,36 +56,36 @@
 			</header>
 			<div class="resume-body p-5">
 				<section class="resume-section summary-section mb-5">
-					<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Career Summary</h2>
+					<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Resúmen</h2>
 					<div class="resume-section-content">
-						<p class="mb-0">Software engineer with a year of experience in the backend part and a bit of frontend using PHP technology and its Codeigniter and Yii2 frameworks. Participating in information management projects in databases. I am willing to learn more and use other technologies especially in JavaScript, Python and Ruby.</p>
+						<p class="mb-0">Ingeniero de software con un año de experiencia en la parte de backend y un poco de frontend utilizando la tecnología PHP y sus frameworks Codeigniter y Yii2. Participando en proyectos de gestión de información en bases de datos. Estoy abierto a aprender más y usar otras tecnologías sobre todo en JavaScript, Python y Ruby.</p>
 					</div>
 				</section><!--//summary-section-->
 				<div class="row">
 					<div class="col-lg-9">
 						<section class="resume-section experience-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Experiencia Laboral</h2>
 							<div class="resume-section-content">
 								<div class="resume-timeline position-relative">
 									<article class="resume-timeline-item position-relative pb-5">
 
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
-												<h3 class="resume-position-title font-weight-bold mb-1">Full Stack Developer</h3>
+												<h3 class="resume-position-title font-weight-bold mb-1">Desarrollador Full Stack</h3>
 												<div class="resume-company-name ml-auto">TecNM / Instituto Tecnológico de Tehuacán</div>
 											</div><!--//row-->
-											<div class="resume-position-time">September 2018 - December 2018</div>
+											<div class="resume-position-time">Septiembre de 2018 - Diciembre de 2018</div>
 										</div><!--//resume-timeline-item-header-->
 										<div class="resume-timeline-item-desc">
-											<p>Responsible for full stack development and database of the module 'didactic instrumentation' for use by all teachers of the National Technological Institute of Mexico.</p>
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
-											<p>Before the teachers made the didactic instrumentation in programs such as "word", following specific standards and formats, but now:</p>
+											<p>Responsable del desarrollo full stack y la base de datos del módulo 'Instrumentación didáctica' para uso de todos los docentes del Tecnológico Nacional de México.</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Logros::</h4>
+											<p>Antes los docentes hacían la instrumentación didáctica en programas como "word", siguiendo normas y formatos específicos, pero ahora:</p>
 											<ul>
-												<li>Filling data is fast, intuitive and effective.</li>
-												<li>At the end of the capture the teachers obtain the didactic instrumentation in a PDF complying with the norms and formats required and the confidence that everything they wrote and saved is in a database.</li>
-												<li>The document once generated can be consulted or edited on the platform when and where they want from a web browser and with an internet connection.</li>
+												<li>El llenado de datos es rápido, intuitivo y éficaz.</li>
+												<li>Al final de la captura los docentes obtienen la instrumentación didáctica en un PDF cumpliendo las normas y formatos requeridos y la confianza de que todo lo que escribieron y guardaron se encuentra en una base de datos.</li>
+												<li>El documento una vez generado puede ser consultado o editado en la plataforma cuando y donde ellos quieran desde un navegador web y con una conexión a internet.</li>
 											</ul>
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Tecnologías usadas:</h4>
 											<ul class="list-inline">
 												<li class="list-inline-item"><span class="badge badge-primary badge-pill">PHP 7</span></li>
 												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Yii 2</span></li>
@@ -102,16 +102,16 @@
 
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
-												<h3 class="resume-position-title font-weight-bold mb-1">Web Developer</h3>
+												<h3 class="resume-position-title font-weight-bold mb-1">Desarrollador Web</h3>
 												<div class="resume-company-name ml-auto">Lavados Especiales</div>
 											</div><!--//row-->
-											<div class="resume-position-time">February 2018 - July 2018</div>
+											<div class="resume-position-time">Febero de 2018 - Julio de 2018</div>
 										</div><!--//resume-timeline-item-header-->
 										<div class="resume-timeline-item-desc">
-											<p>Responsible for full stack development and database of platform for the management of laundry process in the company 'Lavados Especiales' from Puebla city.</p>
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Description</h4>
-											<p>Platform for automate in efficiently way the control of laundry processes and the company administration with the implementation of the project to obtain a better fastest and internal control.</p>
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+											<p>Responsable del desarrollo full stack y de base de datos de la plataforma para la gestión del proceso de lavandería en la empresa 'Lavados Especiales' en la ciudad de Puebla.</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Descripción</h4>
+											<p>Plataforma para automatizar de manera eficiente el control de los procesos de lavado y la administración de la empresa con la implementación del proyecto para obtener un mejor control interno más rápido y eficaz.</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Tecnologías usadas:</h4>
 											<ul class="list-inline">
 												<li class="list-inline-item"><span class="badge badge-primary badge-pill">PHP 7</span></li>
 												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Codeigniter</span></li>
@@ -134,11 +134,11 @@
 					</div>
 					<div class="col-lg-3">
 						<section class="resume-section skills-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills &amp; Tools</h2>
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Habilidades y Herramientas</h2>
 							<div class="resume-section-content">
 
 								<div class="resume-skill-item">
-									<h4 class="resume-skills-cat font-weight-bold">Languajes</h4>
+									<h4 class="resume-skills-cat font-weight-bold">Lenguajes</h4>
 									<ul class="list-unstyled mb-4">
 										<li class="mb-2">
 											<div class="resume-skill-name">PHP</div>
@@ -222,7 +222,7 @@
 								</div><!--//resume-skill-item-->
 
 								<div class="resume-skill-item">
-									<h4 class="resume-skills-cat font-weight-bold">Others</h4>
+									<h4 class="resume-skills-cat font-weight-bold">Otros</h4>
 									<ul class="list-inline">
 										<li class="list-inline-item"><span class="badge badge-light">Git</span></li>
 										<li class="list-inline-item"><span class="badge badge-light">FontAwesome</span></li>
@@ -231,11 +231,11 @@
 							</div><!--resume-section-content-->
 						</section><!--//skills-section-->
 						<section class="resume-section education-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Educación</h2>
 							<div class="resume-section-content">
 								<ul class="list-unstyled">
 									<li class="mb-2">
-										<div class="resume-degree font-weight-bold">Computer Systems Enginer</div>
+										<div class="resume-degree font-weight-bold">Ingeniería en Sistemas Computacionales</div>
 										<div class="resume-degree-org"><a href="http://www.ittehuacan.edu.mx" target="_blank">TecNM / Instituto Tecnológico de Tehuacán</a></div>
 										<div class="resume-degree-time">2014 - 2018</div>
 									</li>
@@ -243,44 +243,44 @@
 							</div>
 						</section><!--//education-section-->
 						<section class="resume-section reference-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Awards</h2>
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Reconocimientos</h2>
 							<div class="resume-section-content">
 								<ul class="list-unstyled resume-awards-list">
 									<li class="mb-2 pl-4 position-relative">
 										<i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
-										<div class="resume-award-name">State programming competition</div>
-										<div class="resume-award-desc">In the <a href="http://www.itpuebla.edu.mx" target="_blank">IT of Puebla</a> on April 22, 2016. Winner of the third place in the intermediate category.</div>
+										<div class="resume-award-name">Concurso estatal de programación</div>
+										<div class="resume-award-desc">En el <a href="http://www.itpuebla.edu.mx" target="_blank">IT de Puebla</a> el 22 de Abril de 2016. Ganador del tercer lugar en la categoría intermedia.</div>
 									</li>
 								</ul>
 							</div>
 						</section><!--//interests-section-->
 						<section class="resume-section language-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Language</h2>
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Idiomas</h2>
 							<div class="resume-section-content">
 								<ul class="list-unstyled resume-lang-list">
-									<li class="mb-2"><span class="resume-lang-name font-weight-bold">Spanish</span> <small class="text-muted font-weight-normal">(Native)</small></li>
-									<li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">English</span> <small class="text-muted font-weight-normal">(Intermediate)</small></li>
+									<li class="mb-2"><span class="resume-lang-name font-weight-bold">Español</span> <small class="text-muted font-weight-normal">(Nativo)</small></li>
+									<li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">Inglés</span> <small class="text-muted font-weight-normal">(Intermedio)</small></li>
 								</ul>
 							</div>
 						</section><!--//language-section-->
 						<section class="resume-section interests-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Intereses</h2>
 							<div class="resume-section-content">
 								<ul class="list-unstyled">
-									<li class="mb-1">Reading</li>
-									<li class="mb-1">Swimming</li>
-									<li class="mb-1">Watching movies</li>
+									<li class="mb-1">Leer</li>
+									<li class="mb-1">Nadar</li>
+									<li class="mb-1">Ver películas</li>
 								</ul>
 							</div>
 						</section><!--//interests-section-->
 						<section class="resume-section education-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Volunteer</h2>
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Voluntariado</h2>
 							<div class="resume-section-content">
 								<ul class="list-unstyled">
 									<li class="mb-2">
-										<div class="resume-degree font-weight-bold">Full Time Misioner</div>
+										<div class="resume-degree font-weight-bold">Misionero de Tiempo Completo</div>
 										<div class="resume-degree-org"><a href="https://www.campomision.org.mx/" target="_blank">Misioneros Servidores de la Palabra</a></div>
-										<div class="resume-degree-time">April 2011 - September 2013</div>
+										<div class="resume-degree-time">Abril de 2011 - Septiembre de 2013</div>
 									</li>
 								</ul>
 							</div>
@@ -297,7 +297,7 @@
 
 	<footer class="footer text-center pt-2 pb-5">
 		<!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-		<a href="/index.php">Spanish</a>
+    <a href="/index.php">Spanish</a>
 		<a href="/index.php/welcome/english">English</a>
 	</footer>
 </body>
