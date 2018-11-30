@@ -81,7 +81,7 @@
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Logros::</h4>
 											<p>Antes los docentes hacían la instrumentación didáctica en programas como "word", siguiendo normas y formatos específicos, pero ahora:</p>
 											<ul>
-												<li>El llenado de datos es rápido, intuitivo y éficaz.</li>
+												<li>El llenado de datos es rápido, intuitivo y eficaz.</li>
 												<li>Al final de la captura los docentes obtienen la instrumentación didáctica en un PDF cumpliendo las normas y formatos requeridos y la confianza de que todo lo que escribieron y guardaron se encuentra en una base de datos.</li>
 												<li>El documento una vez generado puede ser consultado o editado en la plataforma cuando y donde ellos quieran desde un navegador web y con una conexión a internet.</li>
 											</ul>
