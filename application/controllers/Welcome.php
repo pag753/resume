@@ -65,7 +65,7 @@ class Welcome extends CI_Controller {
       "National Student Event of Technological Innovation (ENEIT) 2016",
       'National stage in the IT of Pachuca from 22 to 25 November 2016 by the project "Enerluz".',
       'Certifications',
-      'Regional stage in IT of Gustavo A. Madero in Mexico City, from 20 to 23 September 2016 by the projects “Enerluz” and "Autosilla”. Winner with “Enerluz” project',
+      'Regional stage in IT of Gustavo A. Madero in Mexico City, from 20 to 23 September 2016 by the projects “Enerluz” and "Autosilla”. Winner with “Enerluz” project.',
     ];
     $this->load->view('welcome_message',['arr' => $arr]);
   }
