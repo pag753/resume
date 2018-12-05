@@ -19,14 +19,14 @@ class Welcome extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 
-  
+
   public function english()
   {
     $arr = [
       'Resume Pablo de Jesús',
       'Full Stack Developer',
       'Career Summary',
-      'Software engineer with a year of experience in the backend part and a bit of frontend using PHP technology and its Codeigniter and Yii2 frameworks. Participating in information management projects in databases. I am willing to learn more and use other technologies especially in JavaScript, Python and Ruby.',
+      'Software engineer with a year of experience in the backend part and frontend using PHP technology and its Codeigniter and Yii2 frameworks. Participating in information management projects in databases. I am willing to learn more and use other technologies especially in JavaScript, Python and Ruby.',
       'Work Experience',
       'Full Stack Developer',
       'September 2018 - December 2018',
@@ -42,7 +42,7 @@ class Welcome extends CI_Controller {
       "Responsible for full stack development and database of platform for the management of laundry process in the company 'Lavados Especiales' from Puebla city.",
       "Description",
       "Platform for automate in efficiently way the control of laundry processes and the company administration with the implementation of the project to obtain a better fastest and internal control.",
-      "Skills &amp; Tools",      
+      "Skills &amp; Tools",
       "Languajes",
       "Others",
       "Education",
@@ -61,18 +61,22 @@ class Welcome extends CI_Controller {
       "Watching movies",
       "Volunteer",
       "Full Time Misioner",
-      "April 2011 - September 2013",  
+      "April 2011 - September 2013",
+      "National Student Event of Technological Innovation (ENEIT) 2016",
+      'National stage in the IT of Pachuca from 22 to 25 November 2016 by the project "Enerluz".',
+      'Certifications',
+      'Regional stage in IT of Gustavo A. Madero in Mexico City, from 20 to 23 September 2016 by the projects “Enerluz” and "Autosilla”. Winner with “Enerluz” project',
     ];
     $this->load->view('welcome_message',['arr' => $arr]);
   }
-  
+
   public function index()
 	{
 	  $arr = [
 	    'Curriculum Vitae Pablo de Jesús',
 	    'Desarrollador Full Stack',
 	    'Resúmen',
-	    'Ingeniero de software con un año de experiencia en la parte de backend y un poco de frontend utilizando la tecnología PHP y sus frameworks Codeigniter y Yii2. Participando en proyectos de gestión de información en bases de datos. Estoy abierto a aprender más y usar otras tecnologías sobre todo en JavaScript, Python y Ruby.',
+	    'Ingeniero de software con un año de experiencia en la parte de backend y frontend utilizando la tecnología PHP y sus frameworks Codeigniter y Yii2. Participando en proyectos de gestión de información en bases de datos. Estoy dispuesto a aprender más y usar otras tecnologías sobre todo en JavaScript, Python y Ruby.',
 	    'Experiencia Laboral',
 	    'Desarrollador Full Stack',
 	    'Septiembre de 2018 - Diciembre de 2018',
@@ -108,6 +112,10 @@ class Welcome extends CI_Controller {
 	    "Voluntariado",
 	    "Misionero de Tiempo Completo",
 	    "Abril de 2011 - Septiembre de 2013",
+      "Evento Nacional Estudiantil de Innovación Tecnológica (ENEIT) 2016",
+      'Etapa nacional en el IT de Pachuca del 22 al 25 de noviembre de 2016 por el proyecto “Enerluz".',
+      'Certificaciones',
+      'Etapa regional en el IT de Gustavo A. Madero en la Ciudad de México, del 20 al 23 de septiembre de 2016 por los proyectos “Enerluz” y “Autosilla”. Ganador con “Enerluz”.',
 	  ];
 	  $this->load->view('welcome_message',['arr' => $arr]);
 	}

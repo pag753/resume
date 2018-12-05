@@ -243,6 +243,7 @@ $arr = $arr;
 								</div><!--//resume-skill-item-->
 							</div><!--resume-section-content-->
 						</section><!--//skills-section-->
+						<!-- EDUCACIÓN -->
 						<section class="resume-section education-section mb-5">
 							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3"><?= $arr[22] ?></h2>
 							<div class="resume-section-content">
@@ -255,6 +256,30 @@ $arr = $arr;
 								</ul>
 							</div>
 						</section><!--//education-section-->
+						<!-- CERTIFICACIONES -->
+						<section class="resume-section education-section mb-5">
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3"><?= $arr[41] ?></h2>
+							<div class="resume-section-content">
+								<ul class="list-unstyled">
+									<li class="mb-2">
+										<div class="resume-degree font-weight-bold">Microsoft Technology Associate</div>
+										<div class="resume-degree-org">Software Development Fundamentals</div>
+										<div class="resume-degree-time">2015</div>
+									</li>
+								</ul>
+							</div>
+							<div class="resume-section-content">
+								<ul class="list-unstyled">
+									<li class="mb-2">
+										<div class="resume-degree font-weight-bold">Microsoft Technology Associate</div>
+										<div class="resume-degree font-weight-bold"></div>
+										<div class="resume-degree-org">Database Fundamentals</div>
+										<div class="resume-degree-time">2015</div>
+									</li>
+								</ul>
+							</div>
+						</section><!--//education-section-->
+						<!-- PREMIOS -->
 						<section class="resume-section reference-section mb-5">
 							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3"><?= $arr[24] ?></h2>
 							<div class="resume-section-content">
@@ -266,7 +291,26 @@ $arr = $arr;
 									</li>
 								</ul>
 							</div>
+							<div class="resume-section-content">
+								<ul class="list-unstyled resume-awards-list">
+									<li class="mb-2 pl-4 position-relative">
+										<i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+										<div class="resume-award-name"><?= $arr[39] ?></div>
+										<div class="resume-award-desc"><?= $arr[40] ?></div>
+									</li>
+								</ul>
+							</div>
+							<div class="resume-section-content">
+								<ul class="list-unstyled resume-awards-list">
+									<li class="mb-2 pl-4 position-relative">
+										<i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+										<div class="resume-award-name">ENEIT 2016</div>
+										<div class="resume-award-desc"><?= $arr[42] ?></div>
+									</li>
+								</ul>
+							</div>
 						</section><!--//interests-section-->
+						<!-- IDIOMAS -->
 						<section class="resume-section language-section mb-5">
 							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3"><?= $arr[27] ?></h2>
 							<div class="resume-section-content">
