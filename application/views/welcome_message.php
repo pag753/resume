@@ -1,5 +1,11 @@
-<?php 
+<?php
+/**
+* Vista de cv
+* @author Pablo de Jesús
+*/
+
 /* @var $arr string[] */
+$arr = $arr;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +16,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Responsive Resume Template">
+	<meta name="description" content="CV">
 	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">
 	<link rel="shortcut icon" href="/favicon.ico">
 
@@ -84,7 +90,7 @@
 											<div class="resume-position-time"><?= $arr[6] ?></div>
 										</div><!--//resume-timeline-item-header-->
 										<div class="resume-timeline-item-desc">
-											<<?= $arr[7] ?>p></p>
+											<p><?= $arr[7] ?></p>
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold"><?= $arr[8] ?></h4>
 											<p><?= $arr[9] ?></p>
 											<ul>
