@@ -239,6 +239,7 @@ $arr = $arr;
 									<ul class="list-inline">
 										<li class="list-inline-item"><span class="badge badge-light">Git</span></li>
 										<li class="list-inline-item"><span class="badge badge-light">FontAwesome</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Linux</span></li>
 									</ul>
 								</div><!--//resume-skill-item-->
 							</div><!--resume-section-content-->
