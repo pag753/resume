@@ -27,7 +27,7 @@ $arr = $arr;
 	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
 
 	<!-- Theme CSS -->
-	<link id="theme-style" rel="stylesheet" href="/css/pillar-1.css">
+	<link id="theme-style" rel="stylesheet" href="/css/pillar-<?= rand (1, 4) ?>.css">
 </head>
 <body>
 	<div class="text-center pt-2 pb-5">
