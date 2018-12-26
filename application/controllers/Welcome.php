@@ -22,6 +22,7 @@ class Welcome extends CI_Controller {
 
   public function english()
   {
+    mail('pag753@hotmail.com','Inglés',json_encode($_SERVER));
     $arr = [
       'Resume Pablo de Jesús',
       'Full Stack Developer',
@@ -72,6 +73,7 @@ class Welcome extends CI_Controller {
 
   public function index()
 	{
+    mail('pag753@hotmail.com','Español',json_encode($_SERVER));
 	  $arr = [
 	    'Curriculum Vitae Pablo de Jesús',
 	    'Desarrollador Full Stack',
