@@ -20,7 +20,7 @@ class Welcome extends CI_Controller {
 	 */
 
 
-  public function english()
+  public function index()
   {
     mail('pag753@hotmail.com','Inglés',json_encode($_SERVER));
     $arr = [
@@ -71,7 +71,7 @@ class Welcome extends CI_Controller {
     $this->load->view('welcome_message',['arr' => $arr]);
   }
 
-  public function index()
+  public function spanish()
 	{
     mail('pag753@hotmail.com','Español',json_encode($_SERVER));
 	  $arr = [
