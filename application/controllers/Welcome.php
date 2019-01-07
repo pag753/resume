@@ -19,10 +19,14 @@ class Welcome extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 
-
+  private function location()
+  {
+    $ip = $_SERVER['REMOTE_ADDR'];
+    return file_get_contents("http://ip-api.com/json/$ip");
+  }
   public function index()
   {
-    mail('pag753@hotmail.com','Inglés',json_encode($_SERVER));
+    mail('pag753@hotmail.com','Inglés',$this->location());
     $arr = [
       'Resume Pablo de Jesús',
       'Full Stack Developer',
@@ -73,7 +77,7 @@ class Welcome extends CI_Controller {
 
   public function spanish()
 	{
-    mail('pag753@hotmail.com','Español',json_encode($_SERVER));
+    mail('pag753@hotmail.com','Español',$this->location());
 	  $arr = [
 	    'Curriculum Vitae Pablo de Jesús',
 	    'Desarrollador Full Stack',
