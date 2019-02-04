@@ -21,7 +21,7 @@ class Welcome extends CI_Controller {
 
   private function location()
   {
-    $ip = $_SERVER['REMOTE_ADDR'];
+    $ip = $_SERVER['HTTP_CLIENT_IP'];
     return file_get_contents("http://ip-api.com/json/$ip");
   }
   public function index()
