@@ -20,9 +20,9 @@ class Welcome extends CI_Controller {
   */
 
   /**
-  * Método para consumir la API de IP. 
-  * @return string
-  */
+   * Método para consumir la API de IP.
+   * @return string
+   */
   private function location()
   {
     error_reporting(0);
@@ -34,8 +34,20 @@ class Welcome extends CI_Controller {
     else if(getenv('HTTP_FORWARDED')) $ip = getenv('HTTP_FORWARDED');
     else if(getenv('REMOTE_ADDR')) $ip = getenv('REMOTE_ADDR');
     else $ip = '127.0.0.1';
-    //return "IP = $ip" . file_get_contents("http://ip-api.com/json/$ip");
-    return "IP = $ip" . file_get_contents("https://ipapi.co/$ip/json");
+    //return "IP = $ip " . file_get_contents("http://ip-api.com/json/$ip");
+    return "IP = $ip " . file_get_contents("https://ipapi.co/$ip/json");
+    /*
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, "http://ip-api.com/json/$ip");
+    //curl_setopt($ch, CURLOPT_URL, "https://ipapi.co/$ip/json/");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    $result = curl_exec($ch);
+    if (curl_errno($ch)) {
+        return "IP: $ip, Error:" . curl_error($ch);
+    }
+    curl_close ($ch);
+    return "IP : $ip, " . $result;
+    */
   }
   
   /**
