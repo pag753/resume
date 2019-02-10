@@ -19,8 +19,13 @@ class Welcome extends CI_Controller {
   * @see https://codeigniter.com/user_guide/general/urls.html
   */
 
+  /**
+  * Método para consumir la API de IP. 
+  * @return string
+  */
   private function location()
   {
+    error_reporting(0);
     $ip = '';
     if (getenv('HTTP_CLIENT_IP')) $ip = getenv('HTTP_CLIENT_IP');
     else if(getenv('HTTP_X_FORWARDED_FOR')) $ip = getenv('HTTP_X_FORWARDED_FOR');
@@ -29,9 +34,13 @@ class Welcome extends CI_Controller {
     else if(getenv('HTTP_FORWARDED')) $ip = getenv('HTTP_FORWARDED');
     else if(getenv('REMOTE_ADDR')) $ip = getenv('REMOTE_ADDR');
     else $ip = '127.0.0.1';
-    return file_get_contents("http://ip-api.com/json/$ip");
-    //return file_get_contents("https://ipapi.co/$ip/json");
+    //return "IP = $ip" . file_get_contents("http://ip-api.com/json/$ip");
+    return "IP = $ip" . file_get_contents("https://ipapi.co/$ip/json");
   }
+  
+  /**
+  * CV en inglés 
+  */
   public function index()
   {
     mail('pag753@hotmail.com','Inglés',$this->location());
@@ -83,6 +92,9 @@ class Welcome extends CI_Controller {
     $this->load->view('welcome_message',['arr' => $arr]);
   }
 
+  /**
+  * CV en español 
+  */
   public function spanish()
   {
     mail('pag753@hotmail.com','Español',$this->location());
