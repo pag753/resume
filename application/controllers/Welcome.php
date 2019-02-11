@@ -35,7 +35,8 @@ class Welcome extends CI_Controller {
     else if(getenv('REMOTE_ADDR')) $ip = getenv('REMOTE_ADDR');
     else $ip = '127.0.0.1';
     //return "IP = $ip " . file_get_contents("http://ip-api.com/json/$ip");
-    return "IP = $ip " . file_get_contents("https://ipapi.co/$ip/json");
+    //return "IP = $ip " . file_get_contents("https://ipapi.co/$ip/json");
+    return "IP = $ip " . file_get_contents("https://ipinfo.io/$ip/json");
     /*
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, "http://ip-api.com/json/$ip");
@@ -49,9 +50,9 @@ class Welcome extends CI_Controller {
     return "IP : $ip, " . $result;
     */
   }
-  
+
   /**
-  * CV en inglés 
+  * CV en inglés
   */
   public function index()
   {
@@ -105,7 +106,7 @@ class Welcome extends CI_Controller {
   }
 
   /**
-  * CV en español 
+  * CV en español
   */
   public function spanish()
   {
