@@ -32,7 +32,12 @@ $arr = $arr;
 <body>
 	<div class="text-center pt-2 pb-5">
     <a href="/index.php">English</a>
+		<br>
 		<a href="/index.php/welcome/spanish">Spanish</a>
+		<br>
+		<a href="/index.php/welcome/pdf_english" target="_blank"><i class="fa fa-file-pdf" aria-hidden="true"></i> PDF English</a>
+		<br>
+		<a href="/index.php/welcome/pdf_spanish" target="_blank"><i class="fa fa-file-pdf" aria-hidden="true"></i> PDF Spanish</a>
 	</div>
 	<article class="resume-wrapper text-center position-relative">
 		<div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">

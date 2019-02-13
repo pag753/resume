@@ -95,7 +95,7 @@ class Welcome extends CI_Controller {
       "Swimming",
       "Watching movies",
       "Volunteer",
-      "Full Time Misioner",
+      "Full Time Missioner",
       "April 2011 - September 2013",
       "National Student Event of Technological Innovation (ENEIT) 2016",
       'National stage in the IT of Pachuca from 22 to 25 November 2016 by the project "Enerluz".',
@@ -106,8 +106,8 @@ class Welcome extends CI_Controller {
   }
 
   /**
-  * CV en español
-  */
+   * CV en español
+   */
   public function spanish()
   {
     mail('pag753@hotmail.com','Español',$this->location());
@@ -157,5 +157,42 @@ class Welcome extends CI_Controller {
       'Etapa regional en el IT de Gustavo A. Madero en la Ciudad de México, del 20 al 23 de septiembre de 2016 por los proyectos “Enerluz” y “Autosilla”. Ganador con “Enerluz”.',
     ];
     $this->load->view('welcome_message',['arr' => $arr]);
+  }
+
+  /**
+   * CV PDF en inglés
+   */
+  public function pdf_english()
+  {
+    
+    mail('pag753@hotmail.com','PDF Español',$this->location());
+    $file = BASEPATH . "files/resume.pdf";
+    ob_clean();
+    header("Cache-Control: no-store");
+    header("Expires: 0");
+    header("Content-Type: application/pdf");
+    header("Cache-Control: public");
+    header('Content-Disposition: inline; filename="' . "cv.pdf" . '"');
+    header("Content-Transfer-Encoding: binary");
+    header('Accept-Ranges: bytes');
+    readfile($file);
+  }
+
+  /**
+   * CV PDF en español
+   */
+  public function pdf_spanish()
+  {
+    mail('pag753@hotmail.com','PDF Español',$this->location());
+    $file = BASEPATH . "files/cv.pdf";
+    ob_clean();
+    header("Cache-Control: no-store");
+    header("Expires: 0");
+    header("Content-Type: application/pdf");
+    header("Cache-Control: public");
+    header('Content-Disposition: inline; filename="' . "cv.pdf" . '"');
+    header("Content-Transfer-Encoding: binary");
+    header('Accept-Ranges: bytes');
+    readfile($file);
   }
 }
