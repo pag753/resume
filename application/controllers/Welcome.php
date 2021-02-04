@@ -73,17 +73,41 @@ class Welcome extends CI_Controller
     public function ws($tipo = 1) {
         switch ($tipo) {
             case 1:
-                mail('pag753@hotmail.com', utf8_decode('Inglés'), $this->location());
+                $this->sendMessage(('Compa, vieron tu CV: Inglés'. "    " . $this->location()));
+                //mail('pag753@hotmail.com', utf8_decode('Inglés'), $this->location());
                 break;
             case 2:
-                mail('pag753@hotmail.com', utf8_decode('Español'), $this->location());
+                $this->sendMessage(('Compa, vieron tu CV: Español'. "    " . $this->location()));
+                //mail('pag753@hotmail.com', utf8_decode('Español'), $this->location());
                 break;
             case 3:
-                mail('pag753@hotmail.com', utf8_decode('PDF Inglés'), $this->location());
+                $this->sendMessage(('Compa, vieron tu CV: PDF Inglés'. "    " . $this->location()));
+                //mail('pag753@hotmail.com', utf8_decode('PDF Inglés'), $this->location());
                 break;
             case 4:
-                mail('pag753@hotmail.com', utf8_decode('PDF Español'), $this->location());
+                $this->sendMessage(('Compa, vieron tu CV: PDF Español'. "    " . $this->location()));
+                //mail('pag753@hotmail.com', utf8_decode('PDF Español'), $this->location());
                 break;
+        }
+    }
+
+    private function sendMessage($messaggio) {
+        try {
+            $token = "1520039742:AAHOpP8sxzYPJSgZGvLsTIGvwaMBbh6xjcQ";
+            $chatID = '1143737307';
+            $url = "https://api.telegram.org/bot" . $token . "/sendMessage?chat_id=" . $chatID;
+            $url = $url . "&text=" . urlencode($messaggio);
+            $ch = curl_init();
+            $optArray = array(
+                CURLOPT_URL => $url,
+                CURLOPT_RETURNTRANSFER => true
+            );
+            curl_setopt_array($ch, $optArray);
+            $result = curl_exec($ch);
+            curl_close($ch);
+            //mail('pag753@hotmail.com', utf8_decode('Respuesta'), $result);
+        } catch (Exception $e) {
+            //mail('pag753@hotmail.com', utf8_decode('Respuesta'), $e->getMessage());
         }
     }
 }
