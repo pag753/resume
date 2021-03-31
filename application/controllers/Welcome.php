@@ -28,6 +28,7 @@ class Welcome extends CI_Controller
      */
     private function location()
     {
+        $device = $_GET['device'];
         error_reporting(0);
         $ip = '';
         if (getenv('HTTP_CLIENT_IP'))
@@ -46,7 +47,7 @@ class Welcome extends CI_Controller
             $ip = '127.0.0.1';
         // return "IP = $ip " . file_get_contents("http://ip-api.com/json/$ip");
         // return "IP = $ip " . file_get_contents("https://ipapi.co/$ip/json");
-        return "IP = $ip " . file_get_contents("https://ipinfo.io/$ip/json");
+        return "IP=$ip, device=$device" . file_get_contents("https://ipinfo.io/$ip/json");
         /*
         * $ch = curl_init();
         * curl_setopt($ch, CURLOPT_URL, "http://ip-api.com/json/$ip");
@@ -70,28 +71,30 @@ class Welcome extends CI_Controller
         $this->load->view('welcome_message');
     }
 
-    public function ws($tipo = 1) {
+    public function ws() {
+        $tipo = $_GET['tipo'];
         switch ($tipo) {
             case 1:
-                $this->sendMessage(('Compa, vieron tu CV: Inglés'. "    " . $this->location()));
+                $this->sendMessage(('Compa, vieron tu CV: Inglés'. "    " . $this->location()), $device);
                 //mail('pag753@hotmail.com', utf8_decode('Inglés'), $this->location());
                 break;
             case 2:
-                $this->sendMessage(('Compa, vieron tu CV: Español'. "    " . $this->location()));
+                $this->sendMessage(('Compa, vieron tu CV: Español'. "    " . $this->location()), $device);
                 //mail('pag753@hotmail.com', utf8_decode('Español'), $this->location());
                 break;
             case 3:
-                $this->sendMessage(('Compa, vieron tu CV: PDF Inglés'. "    " . $this->location()));
+                $this->sendMessage(('Compa, vieron tu CV: PDF Inglés'. "    " . $this->location()), $device);
                 //mail('pag753@hotmail.com', utf8_decode('PDF Inglés'), $this->location());
                 break;
             case 4:
-                $this->sendMessage(('Compa, vieron tu CV: PDF Español'. "    " . $this->location()));
+                $this->sendMessage(('Compa, vieron tu CV: PDF Español'. "    " . $this->location()), $device);
                 //mail('pag753@hotmail.com', utf8_decode('PDF Español'), $this->location());
                 break;
         }
     }
 
-    private function sendMessage($messaggio) {
+    private function sendMessage($messaggio, $device) {
+        $messaggio['device'] = $device;
         try {
             $token = "1520039742:AAHOpP8sxzYPJSgZGvLsTIGvwaMBbh6xjcQ";
             $chatID = '1143737307';
