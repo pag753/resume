@@ -71,7 +71,7 @@ class Welcome extends CI_Controller
         $this->load->view('welcome_message');
     }
 
-    public function ws() {
+    public function telegram() {
         $tipo = $_GET['tipo'];
         switch ($tipo) {
             case 1:
@@ -96,9 +96,10 @@ class Welcome extends CI_Controller
     private function sendMessage($messaggio, $device) {
         $messaggio['device'] = $device;
         try {
-            $token = "1520039742:AAHOpP8sxzYPJSgZGvLsTIGvwaMBbh6xjcQ";
-            $chatID = '1143737307';
-            $url = "https://api.telegram.org/bot" . $token . "/sendMessage?chat_id=" . $chatID;
+            $data = "eyAiY2hhdF9pZCI6ICIxMTQzNzM3MzA3IiwidGtuIjogIjE4MDA3OTMwOTA6QUFHZVJ3YTNNMDVUcXVwRTFlN1dKUW5vNHpvTjA0NDhxTjgifQ";
+            $decocedData = base64_decode($data);
+            $jsonData = json_decode($decocedData);
+            $url = "https://api.telegram.org/bot" . $jsonData->tkn . "/sendMessage?chat_id=" . $jsonData->chat_id;
             $url = $url . "&text=" . urlencode($messaggio);
             $ch = curl_init();
             $optArray = array(
